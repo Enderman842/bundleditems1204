@@ -99,7 +99,7 @@ public class BIItems {
     public static final Item BUNDLED_HONEY = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEY_BOTTLE, JAR);
     public static final Item BUNDLED_COOKIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKIE, JAR);
     public static final Item BUNDLED_HONEYCOMB = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEYCOMB, JAR);
-    public static final Item BUNDLED_EGGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEYCOMB, JAR);
+    public static final Item BUNDLED_EGGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.EGG, Items.BOWL);
     
     public static void regItems() {
         registerItem("secret_item", SECRET_ITEM);
