@@ -11,7 +11,7 @@
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/bundled-items",
 		"sources": "https://github.com/Enderman842/bundleditems1204/"
 	},
-	"license": "CC0-1.0",
+	"license": "CC BY 4.0",
 	"icon": "assets/bundleditems/bundleditems.png",
 	"environment": "*",
 	"entrypoints": {
