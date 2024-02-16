@@ -187,6 +187,7 @@ public class BIItems {
         registerItem("jar", JAR);
         registerItem("bundled_cookies", BUNDLED_COOKIES);
         registerItem("bundled_honey", BUNDLED_HONEY);
+        registerItem("bundled_honeycomb", BUNDLED_HONEYCOMB);
         registerItem("bundled_eggs", BUNDLED_EGGS);
     }
 
