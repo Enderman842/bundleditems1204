@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import puxped.bundleditems.items.BundledItem;
 import puxped.bundleditems.items.BundledItemWithGlint;
+import puxped.bundleditems.items.BundledWaterBottle;
 
 public class BIItems {
 
@@ -50,7 +51,7 @@ public class BIItems {
     public static final Item BUNDLED_STRING = new BundledItem(new FabricItemSettings().maxCount(32), Items.STRING, null);
     public static final Item BUNDLED_FEATHERS = new BundledItem(new FabricItemSettings().maxCount(32), Items.FEATHER, null);
     public static final Item BUNDLED_GLASS_BOTTLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLASS_BOTTLE, null);
-    public static final Item BUNDLED_WATER_BOTTLES = new Item(new FabricItemSettings().maxCount(32));
+    public static final Item BUNDLED_WATER_BOTTLES = new BundledWaterBottle(new FabricItemSettings().maxCount(32));
     public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
     public static final Item BUNDLED_GLOWSTONE_DUST = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOWSTONE, GLASS_VIAL);
     public static final Item BUNDLED_GUNPOWDER = new BundledItem(new FabricItemSettings().maxCount(32), Items.GUNPOWDER, GLASS_VIAL);
@@ -82,7 +83,6 @@ public class BIItems {
     public static final Item BUNDLED_COOKED_COD = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKED_COD, null);
     public static final Item BUNDLED_SALMON = new BundledItem(new FabricItemSettings().maxCount(32), Items.SALMON, null);
     public static final Item BUNDLED_COOKED_SALMON = new BundledItem(new FabricItemSettings().maxCount(32), Items.SALMON, null);
-    public static final Item BUNDLED_COOKIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKIE, null);
     public static final Item BUNDLED_CARROTS = new BundledItem(new FabricItemSettings().maxCount(32), Items.CARROT, null);
     public static final Item BUNDLED_GOLDEN_CARROTS = new BundledItem(new FabricItemSettings().maxCount(32), Items.GOLDEN_CARROT, null);
     public static final Item BUNDLED_POTATOES = new BundledItem(new FabricItemSettings().maxCount(32), Items.POTATO, Items.BOWL);
@@ -91,6 +91,15 @@ public class BIItems {
     public static final Item BUNDLED_FIREWORKS = new BundledItem(new FabricItemSettings().maxCount(32), Items.FIREWORK_ROCKET, null);
     public static final Item BUNDLED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.CHORUS_FRUIT, null);
     public static final Item BUNDLED_POPPED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.POPPED_CHORUS_FRUIT, null);
+    // 1.5.0
+    public static final Item JAR = new Item(new FabricItemSettings().maxCount(64));
+    public static final Item BUNDLED_CHARCOAL = new BundledItem(new FabricItemSettings().maxCount(32), Items.CHARCOAL, Items.BOWL);
+    public static final Item BUNDLED_GHAST_TEARS = new BundledItem(new FabricItemSettings().maxCount(32), Items.GHAST_TEAR, GLASS_VIAL);
+    public static final Item BUNDLED_GLOW_BERRIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOW_BERRIES, Items.BOWL);
+    public static final Item BUNDLED_HONEY = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEY_BOTTLE, JAR);
+    public static final Item BUNDLED_COOKIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKIE, JAR);
+    public static final Item BUNDLED_HONEYCOMB = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEYCOMB, JAR);
+    public static final Item BUNDLED_EGGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEYCOMB, JAR);
     
     public static void regItems() {
         registerItem("secret_item", SECRET_ITEM);
@@ -163,7 +172,6 @@ public class BIItems {
         registerItem("bundled_salmon", BUNDLED_SALMON);
         registerItem("bundled_cooked_cod", BUNDLED_COOKED_COD);
         registerItem("bundled_cooked_salmon", BUNDLED_COOKED_SALMON);
-        registerItem("bundled_cookies", BUNDLED_COOKIES);
         registerItem("bundled_carrots", BUNDLED_CARROTS);
         registerItem("bundled_golden_carrots", BUNDLED_GOLDEN_CARROTS);
         registerItem("bundled_potatoes", BUNDLED_POTATOES);
@@ -172,6 +180,14 @@ public class BIItems {
         registerItem("bundled_fireworks", BUNDLED_FIREWORKS);
         registerItem("bundled_chorus_fruits", BUNDLED_CHORUS_FRUIT);
         registerItem("bundled_popped_chorus_fruits", BUNDLED_POPPED_CHORUS_FRUIT);
+        // 1.5.0
+        registerItem("bundled_charcoal", BUNDLED_CHARCOAL);
+        registerItem("bundled_ghast_tears", BUNDLED_GHAST_TEARS);
+        registerItem("bundled_glow_berries", BUNDLED_GLOW_BERRIES);
+        registerItem("jar", JAR);
+        registerItem("bundled_cookies", BUNDLED_COOKIES);
+        registerItem("bundled_honey", BUNDLED_HONEY);
+        registerItem("bundled_eggs", BUNDLED_EGGS);
     }
 
     public static void registerItem(String itemName, Item item) {
