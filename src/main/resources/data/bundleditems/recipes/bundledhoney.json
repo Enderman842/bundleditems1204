@@ -2,12 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "###",
+        "#J#",
         "###"
     ],
     "key": {
         "#": {
             "item": "minecraft:honey_bottle"
+        },
+        "J": {
+            "item": "bundleditems:jar"
         }
     },
     "result": {

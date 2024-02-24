@@ -5,11 +5,11 @@
     ],
     "key": {
         "#": {
-            "item": "bundleditems:bundled_honey"
+            "item": "bundleditems:bundled_charcoal"
         }
     },
     "result": {
-        "item": "minecraft:honey_bottle",
+        "item": "minecraft:charcoal",
         "count":8
     }
 }

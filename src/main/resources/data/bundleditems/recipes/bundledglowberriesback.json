@@ -5,11 +5,11 @@
     ],
     "key": {
         "#": {
-            "item": "bundleditems:bundled_honey"
+            "item": "bundleditems:bundled_glow_berries"
         }
     },
     "result": {
-        "item": "minecraft:honey_bottle",
+        "item": "minecraft:glow_berries",
         "count":8
     }
 }

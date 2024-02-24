@@ -86,6 +86,9 @@
 	"item.bundleditems.bundled_ghast_tears": "Vial of Ghast Tears",
 	"item.bundleditems.bundled_glow_berries": "Bowl with Glow Berries",
 	"item.bundleditems.bundled_charcoal": "Bowl with Charcoal",
+	"item.bundleditems.jar": "Jar",
+	"item.bundleditems.bundled_honeycomb": "Honeycomb in a Jar",
+	"item.bundleditems.bundled_eggs": "Bowl of Eggs",
 	
 	"itemGroup.bundleditems": "Bundled Items"
 

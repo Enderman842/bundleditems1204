@@ -2,19 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#V#",
+        "#B#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:ghast_tear"
+            "item": "minecraft:egg"
         },
-        "V": {
-            "item": "bundleditems:small_bottle"
+        "B": {
+            "item": "minecraft:bowl"
         }
     },
     "result": {
-        "item": "bundleditems:bundled_ghast_tears",
+        "item": "bundleditems:bundled_eggs",
         "count":1
     }
 }

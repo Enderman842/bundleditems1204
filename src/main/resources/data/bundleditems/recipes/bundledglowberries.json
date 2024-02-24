@@ -2,19 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#V#",
+        "#J#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:ghast_tear"
+            "item": "minecraft:glow_berries"
         },
-        "V": {
-            "item": "bundleditems:small_bottle"
+        "J": {
+            "item": "minecraft:bowl"
         }
     },
     "result": {
-        "item": "bundleditems:bundled_ghast_tears",
+        "item": "bundleditems:bundled_glow_berries",
         "count":1
     }
 }

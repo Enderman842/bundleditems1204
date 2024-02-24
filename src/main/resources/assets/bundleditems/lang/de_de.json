@@ -27,9 +27,9 @@
 	"item.bundleditems.bundled_chorus_fruits": "Gebündelte Chorusfrüchte",
 	"item.bundleditems.bundled_popped_chorus_fruits": "Gebündelte Gepoppte Chorusfrüchte",
 	"item.bundleditems.bundled_buckets": "Gebündelte Eimer",
-	"item.bundleditems.bundled_apples": "Gebündelte äpfel",
-	"item.bundleditems.bundled_golden_apples": "Gebündelte Goldene äpfel",
-	"item.bundleditems.bundled_enchanted_golden_apples": "Gebündelte Verzauberte Goldene äpfel",
+	"item.bundleditems.bundled_apples": "Gebündelte Äpfel",
+	"item.bundleditems.bundled_golden_apples": "Gebündelte Goldene Äpfel",
+	"item.bundleditems.bundled_enchanted_golden_apples": "Gebündelte Verzauberte Goldene Äpfel",
 	"item.bundleditems.bundled_snowballs": "Schüssel mit Schleimbällen",
 	"item.bundleditems.bundled_bowls": "Gebündelte Schüsseln",
 	"item.bundleditems.bundled_bricks": "Gebündelte Ziegel",
@@ -81,6 +81,13 @@
 	"item.bundleditems.bundled_string": "Wollknäuel",
 	"item.bundleditems.bundled_seeds": "Gebündelte Weizensamen",
 	"item.bundleditems.bundled_honey": "Honigtopf",
+
+	"item.bundleditems.bundled_ghast_tears": "Ghasttränenfläschchen",
+	"item.bundleditems.bundled_glow_berries": "Bowl with Glow Berries",
+	"item.bundleditems.bundled_charcoal": "Bowl with Charcoal",
+	"item.bundleditems.jar": "Glastopf",
+	"item.bundleditems.bundled_honeycomb": "Honigwabentopf",
+	"item.bundleditems.bundled_eggs": "Gebündelte Eier",
 	
 	"itemGroup.bundleditems": "Gebündelte Dinge (Bundled Items)"
 
