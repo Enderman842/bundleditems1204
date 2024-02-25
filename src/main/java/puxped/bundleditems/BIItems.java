@@ -6,8 +6,10 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import puxped.bundleditems.items.BundledFireworks;
 import puxped.bundleditems.items.BundledItem;
 import puxped.bundleditems.items.BundledItemWithGlint;
+import puxped.bundleditems.items.BundledWaterBottle;
 
 public class BIItems {
 
@@ -50,7 +52,7 @@ public class BIItems {
     public static final Item BUNDLED_STRING = new BundledItem(new FabricItemSettings().maxCount(32), Items.STRING, null);
     public static final Item BUNDLED_FEATHERS = new BundledItem(new FabricItemSettings().maxCount(32), Items.FEATHER, null);
     public static final Item BUNDLED_GLASS_BOTTLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLASS_BOTTLE, null);
-    public static final Item BUNDLED_WATER_BOTTLES = new Item(new FabricItemSettings().maxCount(32));
+    public static final Item BUNDLED_WATER_BOTTLES = new BundledWaterBottle(new FabricItemSettings().maxCount(32));
     public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
     public static final Item BUNDLED_GLOWSTONE_DUST = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOWSTONE, GLASS_VIAL);
     public static final Item BUNDLED_GUNPOWDER = new BundledItem(new FabricItemSettings().maxCount(32), Items.GUNPOWDER, GLASS_VIAL);
@@ -88,7 +90,7 @@ public class BIItems {
     public static final Item BUNDLED_POTATOES = new BundledItem(new FabricItemSettings().maxCount(32), Items.POTATO, Items.BOWL);
     public static final Item BUNDLED_BAKED_POTATOES = new BundledItem(new FabricItemSettings().maxCount(32), Items.BAKED_POTATO, null);
     public static final Item BUNDLED_NETHER_STARS = new BundledItemWithGlint(new FabricItemSettings().maxCount(32), Items.NETHER_STAR, null);
-    public static final Item BUNDLED_FIREWORKS = new BundledItem(new FabricItemSettings().maxCount(32), Items.FIREWORK_ROCKET, null);
+    public static final Item BUNDLED_FIREWORKS = new BundledFireworks(new FabricItemSettings().maxCount(32), Items.FIREWORK_ROCKET, null);
     public static final Item BUNDLED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.CHORUS_FRUIT, null);
     public static final Item BUNDLED_POPPED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.POPPED_CHORUS_FRUIT, null);
     
