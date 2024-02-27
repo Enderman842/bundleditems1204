@@ -33,7 +33,7 @@
 	"item.bundleditems.bundled_snowballs": "Schüssel mit Schleimbällen",
 	"item.bundleditems.bundled_bowls": "Gebündelte Schüsseln",
 	"item.bundleditems.bundled_bricks": "Gebündelte Ziegel",
-	"item.bundleditems.bundled_clay_balls": "Gebündelte Tonklumpen",
+	"item.bundleditems.bundled_clay_balls": "Schüssel voll Tonklumpen",
 	"item.bundleditems.bundled_flints": "Gebündelte Feuersteine",
 	"item.bundleditems.bundled_name_tags": "Gebündelte Namensschilder",
 	"item.bundleditems.bundled_nether_stars": "Gebündelte Nethersterne",
@@ -81,13 +81,6 @@
 	"item.bundleditems.bundled_string": "Wollknäuel",
 	"item.bundleditems.bundled_seeds": "Gebündelte Weizensamen",
 	"item.bundleditems.bundled_honey": "Honigtopf",
-
-	"item.bundleditems.bundled_ghast_tears": "Ghasttränenfläschchen",
-	"item.bundleditems.bundled_glow_berries": "Bowl with Glow Berries",
-	"item.bundleditems.bundled_charcoal": "Bowl with Charcoal",
-	"item.bundleditems.jar": "Glastopf",
-	"item.bundleditems.bundled_honeycomb": "Honigwabentopf",
-	"item.bundleditems.bundled_eggs": "Gebündelte Eier",
 	
 	"itemGroup.bundleditems": "Gebündelte Dinge (Bundled Items)"
 

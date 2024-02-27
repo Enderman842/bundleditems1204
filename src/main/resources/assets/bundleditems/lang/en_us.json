@@ -33,7 +33,7 @@
 	"item.bundleditems.bundled_snowballs": "Bowl with Snowballs",
 	"item.bundleditems.bundled_bowls": "Bundled Bowls",
 	"item.bundleditems.bundled_bricks": "Bundled Bricks",
-	"item.bundleditems.bundled_clay_balls": "Bowl with Clay Balls",
+	"item.bundleditems.bundled_clay_balls": "Bundled Clay Balls",
 	"item.bundleditems.bundled_flints": "Bundled Flints",
 	"item.bundleditems.bundled_name_tags": "Bundled Name Tags",
 	"item.bundleditems.bundled_nether_stars": "Bundled Nether Stars",
@@ -79,16 +79,9 @@
 	"item.bundleditems.bundled_dark_oak_saplings": "Bundled Dark Oak Saplings",
 	"item.bundleditems.quiver": "Quiver",
 	"item.bundleditems.bundled_vines": "Bundled Vines",
-	"item.bundleditems.bundled_string": "Ball of String",
+	"item.bundleditems.bundled_string": "Bundled Ball of String",
 	"item.bundleditems.bundled_seeds": "Bundled Wheat Seeds",
 	"item.bundleditems.bundled_honey": "Jar of Honey",
-	
-	"item.bundleditems.bundled_ghast_tears": "Vial of Ghast Tears",
-	"item.bundleditems.bundled_glow_berries": "Bowl with Glow Berries",
-	"item.bundleditems.bundled_charcoal": "Bowl with Charcoal",
-	"item.bundleditems.jar": "Jar",
-	"item.bundleditems.bundled_honeycomb": "Honeycomb in a Jar",
-	"item.bundleditems.bundled_eggs": "Bowl of Eggs",
 	
 	"itemGroup.bundleditems": "Bundled Items"
 

@@ -2,15 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#V#",
+        "###",
         "###"
     ],
     "key": {
         "#": {
             "item": "minecraft:ghast_tear"
-        },
-        "V": {
-            "item": "bundleditems:small_bottle"
         }
     },
     "result": {

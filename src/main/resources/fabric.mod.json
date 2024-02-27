@@ -5,10 +5,13 @@
 	"name": "Bundled Items",
 	"description": "A mod that lets you bundle items to take up less space in an inventory.",
 	"authors": [
-		"puxped", "idrae_", "Snowylagito_", "Is"
+		"puxped"
+	],
+	"contributors": [
+		"idrae_", "Snowylagito_", "Is"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/bundled-items",
+		"homepage": "https://modrinth.com/mod/bundled-items",
 		"sources": "https://github.com/Enderman842/bundleditems1204/",
 		"issues": "https://github.com/Enderman842/bundleditems1204/issues"
 	},
@@ -18,21 +21,12 @@
 	"entrypoints": {
 		"main": [
 			"puxped.bundleditems.BundledItems"
-		],
-		"client": [
-			"puxped.bundleditems.BundledItemsClient"
 		]
 	},
-	"mixins": [
-		"bundleditems.mixins.json",
-		{
-			"config": "bundleditems.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.15.6",
-		"minecraft": ">=1.20",
+		"minecraft": "~1.20",
 		"java": ">=17",
 		"fabric-api": "*"
 	}
