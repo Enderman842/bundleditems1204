@@ -1,6 +1,7 @@
 package puxped.bundleditems;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
@@ -53,7 +54,9 @@ public class BIItems {
     public static final Item BUNDLED_FEATHERS = new BundledItem(new FabricItemSettings().maxCount(32), Items.FEATHER, null);
     public static final Item BUNDLED_GLASS_BOTTLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLASS_BOTTLE, null);
     public static final Item BUNDLED_WATER_BOTTLES = new BundledWaterBottle(new FabricItemSettings().maxCount(32));
-    public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
+    //public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
+    public static final Item GLASS_VIAL = new BlockItem(BIBlocks.GLASS_VIAL, new FabricItemSettings().maxCount(64));
+
     public static final Item BUNDLED_GLOWSTONE_DUST = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOWSTONE, GLASS_VIAL);
     public static final Item BUNDLED_GUNPOWDER = new BundledItem(new FabricItemSettings().maxCount(32), Items.GUNPOWDER, GLASS_VIAL);
     public static final Item BUNDLED_REDSTONE = new BundledItem(new FabricItemSettings().maxCount(32), Items.REDSTONE, GLASS_VIAL);
@@ -134,7 +137,9 @@ public class BIItems {
         registerItem("bundled_feathers", BUNDLED_FEATHERS);
         registerItem("bundled_empty_bottles", BUNDLED_GLASS_BOTTLES);
         registerItem("bundled_water_bottles", BUNDLED_WATER_BOTTLES);
+
         registerItem("small_bottle", GLASS_VIAL);
+
         registerItem("bundled_glowstone_dust", BUNDLED_GLOWSTONE_DUST);
         registerItem("bundled_gunpowder", BUNDLED_GUNPOWDER);
         registerItem("bundled_redstone", BUNDLED_REDSTONE);

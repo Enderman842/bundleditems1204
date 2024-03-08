@@ -108,6 +108,7 @@ public class BundledItems implements ModInitializer {
 
 		LOGGER.info("Loading Bundled Items!");
 
+        BIBlocks.regBlocks();
 		BIItems.regItems();
 		Registry.register(Registries.ITEM_GROUP, new Identifier("bundleditems", "main"), ITEM_GROUP);
 
