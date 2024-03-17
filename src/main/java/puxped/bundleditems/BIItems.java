@@ -16,6 +16,9 @@ public class BIItems {
 
     public static final Item SECRET_ITEM = new Item(new FabricItemSettings().maxCount(1));
 
+    //public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
+    public static final Item GLASS_VIAL = new BlockItem(BIBlocks.GLASS_VIAL, new FabricItemSettings().maxCount(64));
+
     public static final Item BUNDLED_OAK_SAPLINGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.OAK_SAPLING, null);
     public static final Item BUNDLED_SPRUCE_SAPLINGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.SPRUCE_SAPLING, null);
     public static final Item BUNDLED_BIRCH_SAPLINGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.BIRCH_SAPLING, null);
@@ -54,9 +57,6 @@ public class BIItems {
     public static final Item BUNDLED_FEATHERS = new BundledItem(new FabricItemSettings().maxCount(32), Items.FEATHER, null);
     public static final Item BUNDLED_GLASS_BOTTLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLASS_BOTTLE, null);
     public static final Item BUNDLED_WATER_BOTTLES = new BundledWaterBottle(new FabricItemSettings().maxCount(32));
-    //public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
-    public static final Item GLASS_VIAL = new BlockItem(BIBlocks.GLASS_VIAL, new FabricItemSettings().maxCount(64));
-
     public static final Item BUNDLED_GLOWSTONE_DUST = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOWSTONE, GLASS_VIAL);
     public static final Item BUNDLED_GUNPOWDER = new BundledItem(new FabricItemSettings().maxCount(32), Items.GUNPOWDER, GLASS_VIAL);
     public static final Item BUNDLED_REDSTONE = new BundledItem(new FabricItemSettings().maxCount(32), Items.REDSTONE, GLASS_VIAL);

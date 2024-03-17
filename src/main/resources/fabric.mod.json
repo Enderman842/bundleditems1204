@@ -21,6 +21,9 @@
 	"entrypoints": {
 		"main": [
 			"puxped.bundleditems.BundledItems"
+		],
+		"client": [
+			"puxped.bundleditems.BundledItemsClient"
 		]
 	},
 	"mixins": [],
