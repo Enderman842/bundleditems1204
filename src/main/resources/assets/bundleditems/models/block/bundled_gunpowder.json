@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "bundleditems:block/bundled_gunpowder",
+		"1": "bundleditems:block/glass_vial_cap",
+		"particle": "bundleditems:block/bundled_gunpowder"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [11, 8, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 8], "texture": "#0"},
+				"east": {"uv": [5, 0, 10, 8], "texture": "#0"},
+				"south": {"uv": [0, 8, 5, 16], "texture": "#0"},
+				"west": {"uv": [5, 8, 10, 16], "texture": "#0"},
+				"up": {"uv": [15, 5, 10, 0], "texture": "#0"},
+				"down": {"uv": [15, 5, 10, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 8, 7],
+			"to": [10, 9, 10],
+			"faces": {
+				"north": {"uv": [3, 0, 6, 1], "texture": "#1"},
+				"east": {"uv": [3, 1, 6, 2], "texture": "#1"},
+				"south": {"uv": [3, 2, 6, 3], "texture": "#1"},
+				"west": {"uv": [3, 3, 6, 4], "texture": "#1"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#1"},
+				"down": {"uv": [3, 3, 0, 6], "texture": "#1"}
+			}
+		}
+	],
+	"display": {}
+}
