@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import puxped.bundleditems.items.BundledBlockItem;
+import puxped.bundleditems.items.BundledEnchantedGoldenApples;
 import puxped.bundleditems.items.BundledFireworks;
 import puxped.bundleditems.items.BundledItem;
 import puxped.bundleditems.items.BundledItemWithGlint;
@@ -41,8 +42,8 @@ public class BIItems {
     public static final Item BUNDLED_WITHER_ROSES = new BundledItem(new FabricItemSettings().maxCount(32), Items.WITHER_ROSE, Items.PAPER);
     public static final Item BUNDLED_VINES = new BundledItem(new FabricItemSettings().maxCount(32), Items.VINE, null);
     public static final Item BUNDLED_APPLES = new BundledBlockItem(BIBlocks.BUNDLED_APPLES, new FabricItemSettings().maxCount(32), Items.APPLE, Items.BOWL);
-    public static final Item BUNDLED_GOLDEN_APPLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GOLDEN_APPLE, Items.BOWL);
-    public static final Item BUNDLED_ENCHANTED_GOLDEN_APPLES = new BundledItemWithGlint(new FabricItemSettings().maxCount(32), Items.ENCHANTED_GOLDEN_APPLE, Items.BOWL);
+    public static final Item BUNDLED_GOLDEN_APPLES = new BundledBlockItem(BIBlocks.BUNDLED_GOLDEN_APPLES, new FabricItemSettings().maxCount(32), Items.GOLDEN_APPLE, Items.BOWL);
+    public static final Item BUNDLED_ENCHANTED_GOLDEN_APPLES = new BundledEnchantedGoldenApples(BIBlocks.BUNDLED_ENCHANTED_GOLDEN_APPLES, new FabricItemSettings().maxCount(32), Items.ENCHANTED_GOLDEN_APPLE, Items.BOWL);
     public static final Item QUIVER = new Item(new FabricItemSettings().maxCount(64));
     public static final Item BUNDLED_ARROWS = new BundledItem(new FabricItemSettings().maxCount(32), Items.ARROW, QUIVER);
     public static final Item BUNDLED_BONES = new BundledItem(new FabricItemSettings().maxCount(32), Items.BONE, null);

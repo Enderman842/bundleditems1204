@@ -18,6 +18,8 @@ public class BIBlocks {
     public static final Block BUNDLED_SUGAR = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
 
     public static final Block BUNDLED_APPLES = new BundledApplesBlock(FabricBlockSettings.create().nonOpaque().strength(1.0f));
+    public static final Block BUNDLED_GOLDEN_APPLES = new BundledApplesBlock(FabricBlockSettings.create().nonOpaque().strength(1.0f));
+    public static final Block BUNDLED_ENCHANTED_GOLDEN_APPLES = new BundledApplesBlock(FabricBlockSettings.create().nonOpaque().strength(1.0f).luminance(8));
     
     public static void regBlocks() {
         registerBlock("small_bottle", GLASS_VIAL);
@@ -26,6 +28,8 @@ public class BIBlocks {
         registerBlock("bundled_redstone", BUNDLED_REDSTONE);
         registerBlock("bundled_sugar", BUNDLED_SUGAR);
         registerBlock("bundled_apples", BUNDLED_APPLES);
+        registerBlock("bundled_golden_apples", BUNDLED_GOLDEN_APPLES);
+        registerBlock("bundled_enchanted_golden_apples", BUNDLED_ENCHANTED_GOLDEN_APPLES);
     }
 
     public static void registerBlock(String blockName, Block block) {
