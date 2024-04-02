@@ -40,7 +40,7 @@ public class BIItems {
     public static final Item BUNDLED_LILIES_OF_THE_VALLEY = new BundledItem(new FabricItemSettings().maxCount(32), Items.LILY_OF_THE_VALLEY, Items.PAPER);
     public static final Item BUNDLED_WITHER_ROSES = new BundledItem(new FabricItemSettings().maxCount(32), Items.WITHER_ROSE, Items.PAPER);
     public static final Item BUNDLED_VINES = new BundledItem(new FabricItemSettings().maxCount(32), Items.VINE, null);
-    public static final Item BUNDLED_APPLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.APPLE, Items.BOWL);
+    public static final Item BUNDLED_APPLES = new BundledBlockItem(BIBlocks.BUNDLED_APPLES, new FabricItemSettings().maxCount(32), Items.APPLE, Items.BOWL);
     public static final Item BUNDLED_GOLDEN_APPLES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GOLDEN_APPLE, Items.BOWL);
     public static final Item BUNDLED_ENCHANTED_GOLDEN_APPLES = new BundledItemWithGlint(new FabricItemSettings().maxCount(32), Items.ENCHANTED_GOLDEN_APPLE, Items.BOWL);
     public static final Item QUIVER = new Item(new FabricItemSettings().maxCount(64));

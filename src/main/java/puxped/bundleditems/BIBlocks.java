@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import puxped.bundleditems.blocks.BundledApplesBlock;
 import puxped.bundleditems.blocks.GlassVialBlock;
 
 public class BIBlocks {
@@ -15,6 +16,8 @@ public class BIBlocks {
     public static final Block BUNDLED_GUNPOWDER = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
     public static final Block BUNDLED_REDSTONE = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
     public static final Block BUNDLED_SUGAR = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
+
+    public static final Block BUNDLED_APPLES = new BundledApplesBlock(FabricBlockSettings.create().nonOpaque().strength(1.0f));
     
     public static void regBlocks() {
         registerBlock("small_bottle", GLASS_VIAL);
@@ -22,6 +25,7 @@ public class BIBlocks {
         registerBlock("bundled_gunpowder", BUNDLED_GUNPOWDER);
         registerBlock("bundled_redstone", BUNDLED_REDSTONE);
         registerBlock("bundled_sugar", BUNDLED_SUGAR);
+        registerBlock("bundled_apples", BUNDLED_APPLES);
     }
 
     public static void registerBlock(String blockName, Block block) {
