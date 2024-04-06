@@ -16,6 +16,7 @@ public class BIBlocks {
     public static final Block BUNDLED_GUNPOWDER = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
     public static final Block BUNDLED_REDSTONE = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
     public static final Block BUNDLED_SUGAR = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
+    public static final Block BUNDLED_GHAST_TEARS = new GlassVialBlock(FabricBlockSettings.copy(Blocks.GLASS));
 
     public static final Block BUNDLED_APPLES = new BundledApplesBlock(FabricBlockSettings.create().nonOpaque().strength(1.0f));
     public static final Block BUNDLED_GOLDEN_APPLES = new BundledApplesBlock(FabricBlockSettings.create().nonOpaque().strength(1.0f));
@@ -27,6 +28,7 @@ public class BIBlocks {
         registerBlock("bundled_gunpowder", BUNDLED_GUNPOWDER);
         registerBlock("bundled_redstone", BUNDLED_REDSTONE);
         registerBlock("bundled_sugar", BUNDLED_SUGAR);
+        registerBlock("bundled_ghast_tears", BUNDLED_GHAST_TEARS);
         registerBlock("bundled_apples", BUNDLED_APPLES);
         registerBlock("bundled_golden_apples", BUNDLED_GOLDEN_APPLES);
         registerBlock("bundled_enchanted_golden_apples", BUNDLED_ENCHANTED_GOLDEN_APPLES);

@@ -53,6 +53,9 @@ public class BundledItems implements ModInitializer {
         entries.add(BIItems.BUNDLED_BLAZE_POWDER);
         entries.add(BIItems.BUNDLED_CLAY_BALLS);
         entries.add(BIItems.BUNDLED_NETHER_WARTS);
+        entries.add(BIItems.BUNDLED_SEEDS);
+        entries.add(BIItems.BUNDLED_CHARCOAL);
+        entries.add(BIItems.BUNDLED_GLOW_BERRIES);
         entries.add(BIItems.BUNDLED_STRING);
         entries.add(BIItems.BUNDLED_FEATHERS);
         entries.add(BIItems.BUNDLED_GLASS_BOTTLES);
@@ -62,7 +65,7 @@ public class BundledItems implements ModInitializer {
         entries.add(BIItems.BUNDLED_GUNPOWDER);
         entries.add(BIItems.BUNDLED_REDSTONE);
         entries.add(BIItems.BUNDLED_SUGAR);
-        entries.add(BIItems.BUNDLED_SEEDS);
+        entries.add(BIItems.BUNDLED_GHAST_TEARS);
         entries.add(BIItems.BUNDLED_BREAD);
         entries.add(BIItems.BUNDLED_FLINTS);
         entries.add(BIItems.BUNDLED_BUCKETS);
@@ -88,9 +91,13 @@ public class BundledItems implements ModInitializer {
         entries.add(BIItems.BUNDLED_SALMON);
         entries.add(BIItems.BUNDLED_COOKED_COD);
         entries.add(BIItems.BUNDLED_COOKED_SALMON);
+        entries.add(BIItems.GLASS_JAR);
         entries.add(BIItems.BUNDLED_COOKIES);
+        entries.add(BIItems.BUNDLED_HONEY);
+        entries.add(BIItems.BUNDLED_HONEYCOMB);
         entries.add(BIItems.BUNDLED_CARROTS);
         entries.add(BIItems.BUNDLED_GOLDEN_CARROTS);
+        entries.add(BIItems.BUNDLED_EGGS);
         entries.add(BIItems.BUNDLED_POTATOES);
         entries.add(BIItems.BUNDLED_BAKED_POTATOES);
         entries.add(BIItems.BUNDLED_NETHER_STARS);

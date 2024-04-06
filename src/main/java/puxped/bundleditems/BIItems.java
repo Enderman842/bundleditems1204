@@ -92,7 +92,7 @@ public class BIItems {
     public static final Item BUNDLED_COOKED_COD = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKED_COD, null);
     public static final Item BUNDLED_SALMON = new BundledItem(new FabricItemSettings().maxCount(32), Items.SALMON, null);
     public static final Item BUNDLED_COOKED_SALMON = new BundledItem(new FabricItemSettings().maxCount(32), Items.SALMON, null);
-    public static final Item BUNDLED_COOKIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKIE, null);
+    public static final Item BUNDLED_COOKIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.COOKIE, GLASS_JAR);
     public static final Item BUNDLED_CARROTS = new BundledItem(new FabricItemSettings().maxCount(32), Items.CARROT, null);
     public static final Item BUNDLED_GOLDEN_CARROTS = new BundledItem(new FabricItemSettings().maxCount(32), Items.GOLDEN_CARROT, null);
     public static final Item BUNDLED_POTATOES = new BundledItem(new FabricItemSettings().maxCount(32), Items.POTATO, Items.BOWL);
@@ -103,7 +103,7 @@ public class BIItems {
     public static final Item BUNDLED_POPPED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.POPPED_CHORUS_FRUIT, null);
     public static final Item BUNDLED_CHARCOAL = new BundledItem(new FabricItemSettings().maxCount(32), Items.CHARCOAL, Items.BOWL);
     public static final Item BUNDLED_EGGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.EGG, Items.BOWL);
-    public static final Item BUNDLED_GHAST_TEARS = new BundledItem(new FabricItemSettings().maxCount(32), Items.GHAST_TEAR, GLASS_VIAL);
+    public static final Item BUNDLED_GHAST_TEARS = new BundledBlockItem(BIBlocks.BUNDLED_GHAST_TEARS, new FabricItemSettings().maxCount(32), Items.GHAST_TEAR, GLASS_VIAL);
     public static final Item BUNDLED_GLOW_BERRIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOW_BERRIES, Items.BOWL);
     public static final Item BUNDLED_HONEY = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEY_BOTTLE, GLASS_JAR);
     public static final Item BUNDLED_HONEYCOMB = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEYCOMB, GLASS_JAR);

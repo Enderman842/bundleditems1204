@@ -28,8 +28,8 @@
 	"item.bundleditems.bundled_popped_chorus_fruits": "Bundled Popped Chorus Fruits",
 	"item.bundleditems.bundled_buckets": "Bundled Buckets",
 	"block.bundleditems.bundled_apples": "Bundled Apples",
-	"item.bundleditems.bundled_golden_apples": "Bundled Golden Apples",
-	"item.bundleditems.bundled_enchanted_golden_apples": "Bundled Enchtanted Golden Apples",
+	"block.bundleditems.bundled_golden_apples": "Bundled Golden Apples",
+	"block.bundleditems.bundled_enchanted_golden_apples": "Bundled Enchtanted Golden Apples",
 	"item.bundleditems.bundled_snowballs": "Bowl with Snowballs",
 	"item.bundleditems.bundled_bowls": "Bundled Bowls",
 	"item.bundleditems.bundled_bricks": "Bundled Bricks",
@@ -78,10 +78,16 @@
 	"item.bundleditems.bundled_acacia_saplings": "Bundled Acacia Saplings",
 	"item.bundleditems.bundled_dark_oak_saplings": "Bundled Dark Oak Saplings",
 	"item.bundleditems.quiver": "Quiver",
+	"item.bundleditems.jar": "Glass Jar",
 	"item.bundleditems.bundled_vines": "Bundled Vines",
 	"item.bundleditems.bundled_string": "Bundled Ball of String",
 	"item.bundleditems.bundled_seeds": "Bundled Wheat Seeds",
 	"item.bundleditems.bundled_honey": "Jar of Honey",
+	"item.bundleditems.bundled_honeycomb": "Jar of Honeycomb",
+	"block.bundleditems.bundled_ghast_tears": "Vial of Ghast Tears",
+	"item.bundleditems.bundled_charcoal": "Bundled Charcoal",
+	"item.bundleditems.bundled_eggs": "Bundled Eggs",
+	"item.bundleditems.bundled_glow_berries": "Bundled Glow Berries",
 	
 	"itemGroup.bundleditems": "Bundled Items"
 
