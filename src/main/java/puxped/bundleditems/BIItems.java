@@ -20,6 +20,7 @@ public class BIItems {
 
     //public static final Item GLASS_VIAL = new Item(new FabricItemSettings().maxCount(64));
     public static final Item GLASS_VIAL = new BlockItem(BIBlocks.GLASS_VIAL, new FabricItemSettings().maxCount(64));
+    public static final Item GLASS_JAR = new Item(new FabricItemSettings().maxCount(64));
 
     public static final Item BUNDLED_OAK_SAPLINGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.OAK_SAPLING, null);
     public static final Item BUNDLED_SPRUCE_SAPLINGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.SPRUCE_SAPLING, null);
@@ -100,6 +101,12 @@ public class BIItems {
     public static final Item BUNDLED_FIREWORKS = new BundledFireworks(new FabricItemSettings().maxCount(32), Items.FIREWORK_ROCKET, null);
     public static final Item BUNDLED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.CHORUS_FRUIT, null);
     public static final Item BUNDLED_POPPED_CHORUS_FRUIT = new BundledItem(new FabricItemSettings().maxCount(32), Items.POPPED_CHORUS_FRUIT, null);
+    public static final Item BUNDLED_CHARCOAL = new BundledItem(new FabricItemSettings().maxCount(32), Items.CHARCOAL, Items.BOWL);
+    public static final Item BUNDLED_EGGS = new BundledItem(new FabricItemSettings().maxCount(32), Items.EGG, Items.BOWL);
+    public static final Item BUNDLED_GHAST_TEARS = new BundledItem(new FabricItemSettings().maxCount(32), Items.GHAST_TEAR, GLASS_VIAL);
+    public static final Item BUNDLED_GLOW_BERRIES = new BundledItem(new FabricItemSettings().maxCount(32), Items.GLOW_BERRIES, Items.BOWL);
+    public static final Item BUNDLED_HONEY = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEY_BOTTLE, GLASS_JAR);
+    public static final Item BUNDLED_HONEYCOMB = new BundledItem(new FabricItemSettings().maxCount(32), Items.HONEYCOMB, GLASS_JAR);
     
     public static void regItems() {
         registerItem("secret_item", SECRET_ITEM);
@@ -143,6 +150,7 @@ public class BIItems {
         registerItem("bundled_water_bottles", BUNDLED_WATER_BOTTLES);
 
         registerItem("small_bottle", GLASS_VIAL);
+        registerItem("jar", GLASS_JAR);
 
         registerItem("bundled_glowstone_dust", BUNDLED_GLOWSTONE_DUST);
         registerItem("bundled_gunpowder", BUNDLED_GUNPOWDER);
@@ -183,6 +191,12 @@ public class BIItems {
         registerItem("bundled_fireworks", BUNDLED_FIREWORKS);
         registerItem("bundled_chorus_fruits", BUNDLED_CHORUS_FRUIT);
         registerItem("bundled_popped_chorus_fruits", BUNDLED_POPPED_CHORUS_FRUIT);
+        registerItem("bundled_charcoal", BUNDLED_CHARCOAL);
+        registerItem("bundled_eggs", BUNDLED_EGGS);
+        registerItem("bundled_ghast_tears", BUNDLED_GHAST_TEARS);
+        registerItem("bundled_glow_berries", BUNDLED_GLOW_BERRIES);
+        registerItem("bundled_honey", BUNDLED_HONEY);
+        registerItem("bundled_honeycomb", BUNDLED_HONEYCOMB);
     }
 
     public static void registerItem(String itemName, Item item) {
