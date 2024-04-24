@@ -5,8 +5,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.potion.PotionUtil;
-import net.minecraft.potion.Potions;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
@@ -24,7 +22,7 @@ public class BundledWaterBottle extends Item {
             if (!stack.isEmpty()) {
                 stack.split(1);
                 ItemStack thing = new ItemStack(Items.POTION, 9);
-                PotionUtil.setPotion(thing, Potions.WATER);
+                //PotionUtil.setPotion(thing, Potions.WATER);
                 ItemEntity itemEntity = new ItemEntity(world, user.getX(), user.getY(), user.getZ(), thing);
 
                 itemEntity.setPickupDelay(0);
